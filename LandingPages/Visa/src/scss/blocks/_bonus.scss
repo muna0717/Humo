@@ -1,0 +1,37 @@
+.bonus {
+    margin-bottom: 120px;
+
+    &__wrapper {
+        max-width: 1200px;
+        max-height: 340px;
+        background-color: $bg-tertiary;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 60px;
+        border-radius: 24px;
+    }
+
+    &__content {
+        max-width: 615px;
+    }
+
+    &__h3 {
+        @include h3;
+        padding-bottom: 16px;
+    }
+
+    &__description {
+        @include p1;
+        max-width: 560px;
+        padding-bottom: 16px;
+    }
+
+    &__button {
+        @include buttonStyle;
+    }
+
+    &__img {
+        width: 396px;
+    }
+}
