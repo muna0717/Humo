@@ -1,0 +1,31 @@
+.promo {
+    background-color: $bg-secondary;
+    padding: 160px 0 60px 0;
+    margin-bottom: 120px;
+
+    &__wrapper {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    &__h1 {
+        @include h1;
+        margin-bottom: 16px;
+    }
+
+    &__description {
+        @include p1;
+        margin-bottom: 24px;
+    }
+
+    &__button {
+        @include buttonStyle;
+    }
+
+    &__productImg {
+        width: 450px;
+    }
+}

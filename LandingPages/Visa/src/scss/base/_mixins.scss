@@ -1,0 +1,48 @@
+/* global-link-style */
+
+@mixin linkStyle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    text-decoration: none;
+    color: $black;
+}
+
+/* global-hedline-styles */
+
+@mixin h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 120%;
+    color: $black;
+}
+
+@mixin h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    color: $black;
+    text-align: center;
+}
+
+/* global-text-style */
+
+@mixin p1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    color: $black;
+}
+
+/* global-buttons-style */
+
+@mixin buttonStyle {
+    background-color: $brand-color;
+    border-radius: 100px;
+    padding: 24px 48px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    color: $white;
+}
