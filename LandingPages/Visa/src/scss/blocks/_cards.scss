@@ -1,0 +1,56 @@
+.cards {
+    margin-bottom: 100px;
+
+    &__h2 {
+        @include h2;
+        margin-bottom: 60px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+    }
+
+    &__item {
+        max-width: 392px;
+        max-height: 675px;
+        padding: 16px 24px;
+        border-radius: 16px;
+        background-color: $bg-secondary;
+    }
+
+    &__img {
+        max-width: 280px;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    &__h4 {
+        @include h4;
+        padding-bottom: 12px;
+    }
+
+    &__price {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        color: $black;
+        padding-bottom: 12px;
+    }
+
+    &__description {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 130%;
+        color: $grey;
+    }
+
+    li {
+        padding-bottom: 8px;
+        list-style: none;
+    }
+
+
+}

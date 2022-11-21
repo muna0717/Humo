@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html {
+html, button, input {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,3 +18,4 @@ html {
 @import 'blocks/header';
 @import 'blocks/advantage';
 @import 'blocks/bonus';
+@import 'blocks/cards'
