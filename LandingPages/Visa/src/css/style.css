@@ -273,7 +273,7 @@ html, button, input {
 /* line 15, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_cards.scss */
 .cards__item {
   max-width: 392px;
-  max-height: 675px;
+  max-height: max-content;
   padding: 16px 24px;
   border-radius: 16px;
   background-color: #F5F5F5;
