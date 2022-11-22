@@ -1,0 +1,39 @@
+.footer {
+    
+    &__docmentation {
+        max-height: max-content;
+        padding: 27px 0;
+        background-color: $bg-light-grey;
+    }
+
+    &__links-wrapper {
+        max-width: 854px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__doc-link {
+        @include p2;
+        text-decoration: none;
+    }
+
+    &__main {
+        max-height: max-content;
+        padding: 24px 0;
+        background-color: $bg-secondary;
+    }
+
+    &__tariffs {
+        max-width: 1050px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    &__tariff-link {
+        @include p2;
+        text-decoration: none;
+    }
+}

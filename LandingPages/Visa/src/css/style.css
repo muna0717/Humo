@@ -376,4 +376,53 @@ html, button, input {
   max-width: 280px;
 }
 
+/* line 3, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__docmentation {
+  max-height: max-content;
+  padding: 27px 0;
+  background-color: #EEEEEE;
+}
+
+/* line 9, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__links-wrapper {
+  max-width: 854px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 16, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__doc-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+/* line 21, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__main {
+  max-height: max-content;
+  padding: 24px 0;
+  background-color: #F5F5F5;
+}
+
+/* line 27, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__tariffs {
+  max-width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+/* line 35, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
+.footer__tariff-link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */

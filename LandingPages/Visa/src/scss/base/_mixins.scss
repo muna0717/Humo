@@ -47,6 +47,13 @@
     color: $black;
 }
 
+@mixin p2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    color: $black;
+}
+
 /* global-buttons-style */
 
 @mixin buttonStyle {
