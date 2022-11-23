@@ -36,4 +36,103 @@
         @include p2;
         text-decoration: none;
     }
+
+    &__hotline {
+        margin-bottom: 32px;
+    }
+
+    &__phone {
+        @include p2;
+        text-decoration: none;
+        margin-bottom: 8px;
+    }
+
+    &__phone-info {
+        @include p1;
+        color: $grey;
+    }
+
+    &__global-links {
+        margin-bottom: 32px;
+    }
+
+    &__global-links-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: max-content;
+    }
+
+    &__global-links-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: max-content;
+        margin-right: 56px;
+    }
+
+    &__global-link {
+        @include p2;
+        text-decoration: none;
+        color: $black;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    &__humo-info {
+        margin-bottom: 32px;
+    }
+
+    &__humo-info-desc {
+        max-width: 560px;
+        @include p1;
+        color: $grey;
+        margin-bottom: 12px;
+    }
+
+    &__humo-address {
+        max-width: max-content;
+        @include p1;
+        color:  $grey;
+        font-style: normal;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__license {
+        max-width: max-content;
+        @include p1;
+        color: $grey;
+    }
+
+    &__social-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__social-info {
+        @include p1;
+        color: $grey;
+        margin-right: 24px;
+    }
+
+    &__social-elem {
+        width: 40px;
+        height: 40px;
+        background-color: $bg-dark-grey;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    &__social-logo {
+        max-width: 22px;
+    }
 }
