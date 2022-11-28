@@ -121,18 +121,8 @@
         margin-right: 24px;
     }
 
-    &__social-elem {
-        width: 40px;
-        height: 40px;
-        background-color: $bg-dark-grey;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-    }
-
     &__social-logo {
-        max-width: 22px;
+        max-width: 40px;
+        margin-right: 10px;
     }
 }

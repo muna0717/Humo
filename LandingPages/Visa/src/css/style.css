@@ -88,7 +88,7 @@ html, button, input {
 
 /* line 9, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
 .menu__wrapper {
-  padding: 24px 0;
+  padding: 16px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -545,20 +545,9 @@ html, button, input {
 }
 
 /* line 124, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
-.footer__social-elem {
-  width: 40px;
-  height: 40px;
-  background-color: #555555;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
-}
-
-/* line 135, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/__footer.scss */
 .footer__social-logo {
-  max-width: 22px;
+  max-width: 40px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
