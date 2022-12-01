@@ -124,7 +124,7 @@ html, button, input {
 
 /* line 17, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
 .menu__logo {
-  width: 150px;
+  width: 180px;
 }
 
 /* line 21, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
@@ -139,6 +139,34 @@ html, button, input {
 /* line 24, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
 .menu__item {
   list-style-type: none;
+}
+
+@media (max-width: 992px) {
+  /* line 31, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__logo {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 39, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__logo {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 47, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__logo {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* line 55, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__logo {
+    max-width: 100px;
+  }
 }
 
 /* line 1, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_advantage.scss */

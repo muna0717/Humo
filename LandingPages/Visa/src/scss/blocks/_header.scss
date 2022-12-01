@@ -15,7 +15,7 @@
     }
 
     &__logo {
-        width: 150px;
+        width: 180px;
     }
 
     &__phone {
@@ -23,5 +23,37 @@
     }
     &__item {
         list-style-type: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu {
+        &__logo {
+            max-width: 160px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        &__logo {
+            max-width: 140px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        &__logo {
+            max-width: 120px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        &__logo {
+            max-width: 100px;
+        }
     }
 }
