@@ -61,7 +61,7 @@ html, button, input {
 
 /* line 6, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
 .promo__wrapper {
-  max-width: 1000px;
+  max-width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,6 +102,77 @@ html, button, input {
 /* line 28, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
 .promo__productImg {
   max-width: 450px;
+}
+
+@media (max-width: 992px) {
+  /* line 34, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo {
+    margin-bottom: 100px;
+  }
+  /* line 37, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__h1 {
+    font-size: 48px;
+  }
+  /* line 41, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__productImg {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 48, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo {
+    margin-bottom: 80px;
+    padding: 120px 0 40px 0;
+  }
+  /* line 52, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__wrapper {
+    flex-direction: column-reverse;
+  }
+  /* line 56, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+  }
+  /* line 63, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__h1 {
+    font-size: 40px;
+  }
+  /* line 67, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__description {
+    text-align: center;
+  }
+  /* line 71, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__button {
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 80, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo {
+    padding: 100px 0 24px 0px;
+    margin-bottom: 60px;
+  }
+  /* line 84, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__productImg {
+    max-width: 240px;
+  }
+  /* line 88, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  /* line 93, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_promo.scss */
+  .promo__button {
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 
 /* line 1, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
@@ -153,17 +224,27 @@ html, button, input {
   .menu__logo {
     max-width: 140px;
   }
+  /* line 43, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__phone {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
 
 @media (max-width: 576px) {
-  /* line 47, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  /* line 52, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
   .menu__logo {
     max-width: 120px;
+  }
+  /* line 56, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  .menu__phone {
+    font-size: 16px;
+    font-weight: 500;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 55, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
+  /* line 65, ../../../OneDrive/Рабочий стол/Humo/LandingPages/Visa/src/scss/blocks/_header.scss */
   .menu__logo {
     max-width: 100px;
   }

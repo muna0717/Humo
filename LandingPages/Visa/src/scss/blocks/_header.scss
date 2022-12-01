@@ -39,6 +39,11 @@
         &__logo {
             max-width: 140px;
         }
+
+        &__phone {
+            font-size: 18px;
+            font-weight: 500;
+        }
     }
 }
 
@@ -46,6 +51,11 @@
     .menu {
         &__logo {
             max-width: 120px;
+        }
+
+        &__phone {
+            font-size: 16px;
+            font-weight: 500;
         }
     }
 }
