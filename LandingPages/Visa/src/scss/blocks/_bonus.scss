@@ -3,7 +3,7 @@
 
     &__wrapper {
         max-width: 1200px;
-        max-height: 340px;
+        max-height: auto;
         background-color: $bg-tertiary;
         display: flex;
         justify-content: space-between;
@@ -33,5 +33,65 @@
 
     &__img {
         width: 396px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bonus {
+        &__img {
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .bonus {
+        &__wrapper {
+            width: 100%;
+        }
+
+        &__h3 {
+            font-size: 24px;
+        }
+
+        &__img {
+            width: 250px;
+        }
+
+        &__button {
+            padding: 16px 24px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .bonus {
+
+        &__wrapper {
+            flex-direction: column;
+            max-height: auto;
+            padding: 24px;
+        }
+
+        &__img {
+            max-width: 320px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .bonus {
+
+        &__wrapper {
+            padding: 10px;
+        }
+
+        &__h3 {
+            font-size: 20px;
+        }
+
+        &__button {
+            font-size: 16px;
+        }
     }
 }

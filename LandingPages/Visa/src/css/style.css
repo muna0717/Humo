@@ -333,7 +333,7 @@ html, button, input {
 
 .bonus__wrapper {
   max-width: 1200px;
-  max-height: 340px;
+  max-height: auto;
   background-color: #FFEDD7;
   display: flex;
   justify-content: space-between;
@@ -377,6 +377,50 @@ html, button, input {
 
 .bonus__img {
   width: 396px;
+}
+
+@media (max-width: 992px) {
+  .bonus__img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bonus__wrapper {
+    width: 100%;
+  }
+  .bonus__h3 {
+    font-size: 24px;
+  }
+  .bonus__img {
+    width: 250px;
+  }
+  .bonus__button {
+    padding: 16px 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bonus__wrapper {
+    flex-direction: column;
+    max-height: auto;
+    padding: 24px;
+  }
+  .bonus__img {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bonus__wrapper {
+    padding: 10px;
+  }
+  .bonus__h3 {
+    font-size: 20px;
+  }
+  .bonus__button {
+    font-size: 16px;
+  }
 }
 
 .cards {
