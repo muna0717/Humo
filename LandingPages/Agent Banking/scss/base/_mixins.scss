@@ -1,11 +1,20 @@
+//components
 @mixin global-btn {
     height: 48px;
     display: inline-block;
-    background-color: $brand-color;
+    background-color: $bg-brand;
     font-size: 18px;
     font-weight: 500;
     line-height: 130%;
     padding: 12px 28px;
     border-radius: 50px;
     border: none;
+}
+
+//headline
+@mixin h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 100%;
+    color: $text-white;
 }
