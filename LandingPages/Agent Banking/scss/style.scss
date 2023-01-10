@@ -1,0 +1,25 @@
+//zeroing
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, button, input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+//base
+@import 'base/mixins';
+@import 'base/variable';
+
+//blocks
+@import 'blocks/header';
+@import 'blocks/container';
+@import 'blocks/promo-slider';
+@import 'blocks/advantage';
+@import 'blocks/functions';
+@import 'blocks/service-card';
+@import 'blocks/baner';
+@import 'blocks/application-form';
+@import 'blocks/footer'

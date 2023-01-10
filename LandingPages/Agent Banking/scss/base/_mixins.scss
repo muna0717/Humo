@@ -1,0 +1,11 @@
+@mixin global-btn {
+    height: 48px;
+    display: inline-block;
+    background-color: $brand-color;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    padding: 12px 28px;
+    border-radius: 50px;
+    border: none;
+}
