@@ -1,0 +1,42 @@
+.functions {
+    margin-bottom: 120px;
+
+    &__h2 {
+        @include h2;
+        margin-bottom: 40px;
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 405px);
+        gap: 24px;
+    }
+
+    &__card {
+        background-color: $bg-white;
+        border-radius: 24px;
+        padding: 40px 40px 0 40px;
+    }
+
+    &__card-h3 {
+        @include h3;
+        margin-bottom: 16px;
+    }
+
+    &__card-descr {
+        @include p1;
+        margin-bottom: 16px;
+    }
+
+    &__card-img-wrapper {
+        width: 320px;
+        height: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__card-img {
+        width: 100%;
+    }
+}

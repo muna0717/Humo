@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F6F7F8;
+}
+
 html, button, input {
   font-family: "Montserrat", sans-serif;
 }
@@ -70,7 +74,7 @@ html, button, input {
   height: 550px;
   background-color: #FF5A1E;
   border-radius: 32px;
-  margin-top: 136px;
+  margin: 136px 0 120px 0;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -113,5 +117,95 @@ html, button, input {
   align-items: flex-end;
 }
 .promo__img {
+  width: 100%;
+}
+
+.advantage {
+  margin-bottom: 120px;
+}
+.advantage__h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #2D2D2D;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.advantage__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.advantage__card {
+  width: 384px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 32px 36px 36px 36px;
+}
+.advantage_card-icon-wrapper {
+  width: 48px;
+  height: 48px;
+}
+.advantage__card-icon {
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.advantage__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #2D2D2D;
+  margin-bottom: 12px;
+}
+.advantage__descr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #2D2D2D;
+}
+
+.functions {
+  margin-bottom: 120px;
+}
+.functions__h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #2D2D2D;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.functions__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 405px);
+  gap: 24px;
+}
+.functions__card {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 40px 40px 0 40px;
+}
+.functions__card-h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #2D2D2D;
+  margin-bottom: 16px;
+}
+.functions__card-descr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #2D2D2D;
+  margin-bottom: 16px;
+}
+.functions__card-img-wrapper {
+  width: 320px;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+}
+.functions__card-img {
   width: 100%;
 }/*# sourceMappingURL=style.min.css.map */

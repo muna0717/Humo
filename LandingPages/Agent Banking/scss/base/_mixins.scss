@@ -18,3 +18,27 @@
     line-height: 100%;
     color: $text-white;
 }
+
+@mixin h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 100%;
+    color: $text-black;
+    text-align: center;
+}
+
+@mixin h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    color: $text-black;
+}
+
+//text style
+
+@mixin p1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    color: $text-black;
+}
